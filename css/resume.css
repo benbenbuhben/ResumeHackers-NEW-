@@ -1,8 +1,14 @@
 body {
-
+ 
 }
 
 #resume {
+  background-image: 
+  linear-gradient(
+    rgba(234, 241, 243, 0.7),
+    rgba(215, 229, 230, 0.7)
+  ),
+  url("../img/paper.jpg");
   font-family: Arial, sans-serif;
   background-color: white;
   margin: 0 auto;
@@ -10,7 +16,7 @@ body {
   height: 1100px;
   padding-left: 100px;
   padding-right: 100px;
-  /* padding-top: 50px; */
+  padding-top: 30px;
   padding-bottom: 50px;
   /* border: 2px solid black; */
   line-height: 1.4em;

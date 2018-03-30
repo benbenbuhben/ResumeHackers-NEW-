@@ -313,6 +313,14 @@ function handleSubmit6(event) {
 
 }
 
+var resume = document.getElementById('resume');
+var saveBtn = document.getElementById('saveBtn');
+
+saveBtn.addEventListener('click', function(){
+  resume.style.backgroundImage='none';
+});
+
+
 /////////////////////////
 
 
