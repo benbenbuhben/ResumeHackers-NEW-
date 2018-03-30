@@ -166,8 +166,8 @@ function handleSubmit(event) {
   if (UserData.edit2hover.includes(0) === false) {
     UserData.edit2hover.push(0);
 
-    reload();
-    document.getElementById('persInfoForm').reset();
+    // reload();
+    // document.getElementById('persInfoForm').reset();
   }
 
   saveToLS();
