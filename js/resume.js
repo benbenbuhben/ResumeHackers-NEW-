@@ -26,6 +26,21 @@ if (usableItems && Object.keys(usableItems).length) { //
 }
 //}
 
+
+
+// function reload() {
+//   var url = "resume.html?" + Math.random();
+//   document.getElementById('preview').src = url;
+// }
+
+// var clearButton = document.getElementById('clear');
+
+// clearButton.addEventListener('click', function(){
+//   localStorage.removeItem('userData');
+//   reload();
+//   genAllContent();
+// });
+
 //loadLS();
 
 function contentGen(parentElID, childEl, userText) {

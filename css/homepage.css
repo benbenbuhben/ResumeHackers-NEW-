@@ -49,6 +49,85 @@ header {
   text-decoration: none;
 }
 
+#register {
+  background-color: #00d9f1;
+  border-radius: 40px;
+  color: white;
+  float: right;
+  font-size: 14px;
+  height: 35px;
+  position: relative;
+  right: 65px;
+  text-shadow: 1px 1px 3px rgb(106, 106, 106);
+  top: 15px;
+  width: 125px;
+}
+
+.registeredUser {
+  color: white;
+  float: right;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-right: 50px;
+}
+
+#signIn {
+  float:right;
+}
+
+#registerForm {
+  background-color: #00d9f1;
+  border: 10px solid white;
+  color: white;
+  box-shadow: 0px 0px 5px rgb(193, 210, 242);
+  height: 500px;
+  left: 550px;
+  line-height: 1.6;
+  padding: 20px;
+  position: relative;
+  text-shadow: 0px 0px 6px #808080; 
+  top: 20px;
+  width: 265px;
+  z-index: 99;
+}
+
+#registerForm div {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.password {
+  margin-top: 15px;
+}
+
+#registerForm input {
+  border: 1px solid grey;
+  box-shadow: 0px 0px 5px #0099aa;
+  padding: 3px;
+  width: 80%;
+  height: 30px;
+}
+
+#registerForm button {
+  background-color: white;
+  border-radius: 40px;
+  box-shadow: 0px 0px 3px rgb(237, 237, 237);
+  float: right;
+  font-size: 14px;
+  height: 30px;
+  padding: 5px;
+  width: 90px;
+}
+
+.hidden {
+  display: none;
+}
+
+.unhidden {
+  display: block;
+}
+
 #sectionOne {
   background-image: 
   linear-gradient(
@@ -192,3 +271,4 @@ marquee {
   margin-bottom:50px;
   padding-top: 5px;
 }
+
