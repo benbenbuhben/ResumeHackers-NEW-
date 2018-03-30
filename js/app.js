@@ -175,6 +175,10 @@ function handleSubmit(event) {
   reload();
   document.getElementById('persInfoForm').reset();
 
+  for(var i = 0; i < allFieldsets.length; i++){
+    allFieldsets[i].style.display = 'none';
+  }
+  allFieldsets[1].style.display = 'block';
 
 }
 
@@ -191,6 +195,12 @@ function handleSubmit2(event) {
   //genAllContent();
   reload();
   document.getElementById('statementForm').reset();
+
+  for(var i = 0; i < allFieldsets.length; i++){
+    allFieldsets[i].style.display = 'none';
+  }
+  allFieldsets[2].style.display = 'block';
+  
 }
 
 function handleSubmit3(event) {
@@ -213,6 +223,11 @@ function handleSubmit3(event) {
   //genAllContent();
   reload();
   document.getElementById('techSkillsForm').reset();
+
+  for(var i = 0; i < allFieldsets.length; i++){
+    allFieldsets[i].style.display = 'none';
+  }
+  allFieldsets[3].style.display = 'block';
 
 }
 
@@ -255,6 +270,11 @@ function handleSubmit4(event) {
   reload();
   document.getElementById('projectForm').reset();
 
+  for(var i = 0; i < allFieldsets.length; i++){
+    allFieldsets[i].style.display = 'none';
+  }
+  allFieldsets[4].style.display = 'block';
+
 }
 
 function handleSubmit5(event) {
@@ -281,6 +301,11 @@ function handleSubmit5(event) {
   //genAllContent(); //need to comment this out
   reload();
   document.getElementById('edForm').reset();
+
+  for(var i = 0; i < allFieldsets.length; i++){
+    allFieldsets[i].style.display = 'none';
+  }
+  allFieldsets[5].style.display = 'block';
 
 }
 
@@ -310,6 +335,11 @@ function handleSubmit6(event) {
   //genAllContent();
   reload();
   document.getElementById('expForm').reset();
+
+  for(var i = 0; i < allFieldsets.length; i++){
+    allFieldsets[i].style.display = 'none';
+  }
+  allFieldsets[0].style.display = 'block';
 
 }
 
