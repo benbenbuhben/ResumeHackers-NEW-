@@ -40,6 +40,8 @@ var UserData = {
   edit2hover: []
 };
 
+// var copycopy = Object.assign({}, UserData);
+
 var cloneBlank = JSON.parse(JSON.stringify(UserData));
 console.log(cloneBlank);
 UserData.defaults = cloneBlank;
@@ -172,6 +174,7 @@ function handleSubmit(event) {
 
   saveToLS();
   //genAllContent(); //replace with savetols & trigger refresh (update source of iframe)
+
   reload();
   document.getElementById('persInfoForm').reset();
 
@@ -343,12 +346,12 @@ function handleSubmit6(event) {
 
 }
 
-var resume = document.getElementById('resume');
-var saveBtn = document.getElementById('saveBtn');
+// var resume = document.getElementById('resume');
+// var saveBtn = document.getElementById('saveBtn');
 
-saveBtn.addEventListener('click', function(){
-  resume.style.backgroundImage='none';
-});
+// saveBtn.addEventListener('click', function(){
+//   resume.style.backgroundImage='none';
+// });
 
 
 /////////////////////////
