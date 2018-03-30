@@ -6,6 +6,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet"/>
   <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:300,400,400i" rel="stylesheet">
 </head>
 
 <body>
@@ -14,9 +15,9 @@
     <nav id="header-nav">
       <img src="img/resumehack.png" id="logo"></img>
       <ul>
-        <li><a href="homepage.html">Homepage</a></li>
+        <li><a href="homepage.html">Home</a></li>
         <li><a href="index.html">Resume Generator</a></li>
-        <li><a href="about.html">About The Team</a></li>
+        <li><a href="about.html">Our Team</a></li>
       </ul>
     </nav>
   </header>
@@ -40,8 +41,8 @@
    </main>
 
    <div id="clear-save-buttons">
-   <button>Clear All</button>
-   <a href="resume.html"><button>Save</button></a>
+   <button class="clear">Clear All</button>
+   <a href="resume.html"><button class="save">Save</button></a>
   </div>
 
     <div id="0">
@@ -63,6 +64,7 @@
           <input id="linkedInText" class="persInfoClass" type="text" name="linkedInText" placeholder="Linked In URL">
           <label for="gitHubText" class="info">GitHub:</label>
           <input id="gitHubText" class="persInfoClass" type="text" name="gitHubText" placeholder="Git Hub URL">
+          <br>
           <input type="submit" id="submitBtn">
         </fieldset>
       </form>
@@ -74,6 +76,7 @@
             <span>Type your objective</span>
           </label>
           <input id="statementText" type="text" name="statementText" placeholder="Enter a short career objective.">
+          <br>
           <input type="submit" id="submitBtn">
         </fieldset>
       </form>
@@ -87,6 +90,7 @@
           <input id="toolsText" type="text" name="toolsText" placeholder="Tools">
           <label for="opSysText" class="info">Operating Systems:</label>
           <input id="opSysText" type="text" name="opSysText" placeholder="Operating Systems">
+          <br>
           <input type="submit" id="submitBtn">
         </fieldset>
       </form>
@@ -107,6 +111,7 @@
           <input id="languagesUsedText" type="text" name="languagesUsedText" placeholder="Languages Used">
           <label for="PersContributionsText" class="info">Project Details:</label>
           <input id="PersContributionsText" type="text" name="PersContributionsText" placeholder="Write individual statements, then click '' ">
+          <br>
           <input type="submit" id="submitBtn">
         </fieldset>
       </form>
@@ -122,6 +127,7 @@
           <input id="degreeText" type="text" name="degreeText" placeholder="Degree, Certificate or Program">
           <label for="gradDateText" class="info">Graduation Date:</label>
           <input id="gradDateText" type="text" name="gradDateText" placeholder="Year">
+          <br>
           <input type="submit" id="submitBtn">
         </fieldset>
       </form>
@@ -139,6 +145,7 @@
           <input id="endText" type="text" name="endText" placeholder="Year or Month, Year">
           <label for="actionText" class="info">Responsibilities:</label>
           <input id="actionText" type="text" name="actionText" placeholder="Write individual statements, click ' ' ">
+          <br>
           <input type="submit" id="submitBtn">
         </fieldset>
       </form>
