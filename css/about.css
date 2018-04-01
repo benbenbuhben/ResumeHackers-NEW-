@@ -59,6 +59,7 @@ main {
   display: inline-block;
   margin-left: 75px;
   font-size: 20px;
+  cursor: pointer;
 }
 
 
@@ -67,6 +68,8 @@ main {
 #header-nav li a {
   color: white;
   text-decoration: none;
+  cursor: pointer;
+  
 }
 
 #header-nav ul li:hover {
@@ -96,16 +99,45 @@ p {
   color:white;
   font-size: 20px;
   height: 85px;
-  width: 100%;
+  width: 94%;
   font-weight: lighter;
   margin-left: 30px;
+  padding-right: 30px;
   
 }
 
 #aboutContainer {
+  background: rgb(141, 153, 158);
   margin-top:50px;
-  padding:80px;
+  padding:30px;
   margin-right: 50px;
-  opacity: 0.8;
- 
+  opacity: 0.6;
+  box-shadow: 5px 5px rgba(79, 103, 116, 0.5);
+  border-radius: 20px;
+
+  position: absolute;
+  top:0;
+  bottom: 20px;
+  left: 40px;
+  right: 40px;
+  margin: 0 auto;
+  margin-top: 132px;
+  padding-right: 30px;
 }
+
+/* #welcome{
+  background: rgb(141, 153, 158);
+  opacity: 0.7;
+  height: 63%;
+  width: 70%;
+  box-shadow: 5px 5px rgba(79, 103, 116, 0.3);
+  border-radius: 20px;
+
+  position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 132px;
+} */
